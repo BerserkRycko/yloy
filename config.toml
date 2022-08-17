@@ -1,0 +1,32 @@
+baseURL = "http://example.com"
+title = "Boutique Yloy"
+author = "Rycko"
+theme = "simple-snipcart-shop"
+contentDir = "products"
+[params]
+  instagram = "example_handle"
+  header = "Bienvenido a Yloy!"
+  description = "Ropa y accesorios para dama."
+  products_title = "Nuestros outfits"
+  reviews_title = "Nuestros reviews"
+  not_found = "Lo sentimos no tenemos productos en esta categoria por el momento."
+  categories = [
+    "Bolsas de mano",
+    "Accesorios",
+    "Ropa"
+  ]
+  collage = [
+    "/images/collage-1.jpg",
+    "/images/collage-2.jpg",
+    "/images/collage-3.jpg",
+    "/images/collage-8.jpg",
+    "/images/collage-7.jpg",
+    "/images/collage-4.jpg",
+    "/images/collage-5.jpg",
+    "/images/collage-6.jpg"
+  ]
+  # snipcart features will not work without an api key
+  # see https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys
+  snipcart_key = "OWFkNDI4MGItNGUxYS00MGZkLWIwNzAtODQ0NWY3MjZiNGFjNjM3OTYyMjU4NDY2NDExMzM1"
+  favicon= "/images/favicon.png"
+
